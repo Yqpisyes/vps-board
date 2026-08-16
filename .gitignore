@@ -1,0 +1,39 @@
+# 编译产物
+vps-board-server
+vps-board-server-*
+vps-board-agent
+vps-board-agent-*
+dist/
+
+# Go
+*.test
+*.out
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# 环境和密钥
+.env
+*.env
+backend.env
+agent.env
+*_token
+*.secret
+
+# 本地备份
+backup/
+backups/
+*.backup
+
+# 操作系统和编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 临时文件
+*.tmp
+*.swp
+*.swo
